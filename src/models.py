@@ -11,56 +11,56 @@ class FamilyTree:
             'id' : 1,
             'first' : 'Abuelo',
             'last' : self.last,
-            'age' : 32,
+            'age' : 81,
             'parent' : None,
-            'child' : [2, 3]
+            'child' : [6]
         } ,
         {
             'id' : 2,
             'first' : 'Tio',
             'last' : self.last,
-            'age' : 32,
-            'parent' : 1,
-            'child' : None
-        },
+            'age' : 63,
+            'parent' : 2,
+            'child' : [3],
+        } ,
         {
             'id' : 3,
             'first' : 'Padre',
             'last' : self.last,
-            'age' : 32,
-            'parent' : 1,
-            'child' : [4]
+            'age' : 65,
+            'parent' : 2,
+            'child' : [2]
         },
         {
             'id' : 4,
             'first' : 'Luis',
             'last' : self.last,
-            'age' : 32,
-            'parent' : 3,
+            'age' : 31,
+            'parent' : 2,
             'child' : None
         },
         {
             'id' : 5,
             'first' : 'Luis Hermano',
             'last' : self.last,
-            'age' : 32,
-            'parent' : 3,
+            'age' : 23,
+            'parent' : 1,
             'child' : None
         },
         {
             'id' : 6,
             'first' : 'Tio2',
             'last' : self.last,
-            'age' : 32,
-            'parent' : 1,
-            'child' : [7]
+            'age' : 54,
+            'parent' : 2,
+            'child' : [3]
         },
         {
             'id' : 7,
             'first' : 'Primo',
             'last' : self.last,
-            'age' : 32,
-            'parent' : 6,
+            'age' : 33,
+            'parent' : 2,
             'child' : None
         }
         ]
